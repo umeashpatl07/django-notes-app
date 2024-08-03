@@ -10,8 +10,9 @@ pipeline {
     stages{
         stage("Clone Code"){
             steps{
+                echo " git clone step is running"
                 git url: "https://github.com/LondheShubham153/django-notes-app.git", branch: "main"
-                echo "Aaj toh LinkedIn Post bannta hai boss, web hooks implemented"
+                echo "WEBHOOK IMPLEMEMT KIA HAI...
             }
         }
         stage("Build & Test"){
