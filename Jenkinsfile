@@ -11,7 +11,7 @@ pipeline {
         stage("Clone Code"){
             steps{
                 echo " git clone step is running"
-                git url: "https://github.com/LondheShubham153/django-notes-app.git", branch: "main"
+                git url: "https://github.com/umeashpatl07/django-notes-app.git", branch: "main"
                 echo "WEBHOOK IMPLEMEMT KIA HAI...
             }
         }
